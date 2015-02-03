@@ -1,4 +1,4 @@
-To use spaces insted of tabs in vim add to ```.vimrc```:
+To use spaces instead of tabs in vim add to ```.vimrc```:
 
 ```
 set smartindent
