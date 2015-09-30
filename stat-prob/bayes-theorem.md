@@ -18,7 +18,8 @@ So as you can see here, even if you fond some trace of Big Foot, it does not mak
 
 The trick is to think about _y_ and _z_ as independent variables, so in this case we should imagine both universes: where we have Big Foot, and where we don't.
 
-In the first case, in the universe where BF happily lives we can say that he could leave his trace probably in 60% of cases. Other cases could be - he was in a shoes, or who knows what?
+In the first case, in the universe where BF happily lives we can say that he could leave his trace probably in 70% of cases.
+
 In the second case, in the universe where there is no BF creature at all, is it possible to him to leave a trace? Don't think so. But it's possible somehow to see his trace. For example you have a friend, who wants to make laught on you.
 
 So event with a power of universe where BF exists, we can't say that seeing his trace make us more confident, that we can meet BF soon.
