@@ -1,7 +1,7 @@
-There is quite interesting, widely-using and powerful theorem in a probability theory, you should already know something about:
+There is a quite interesting, widely-using and powerful theorem in a probability theory, you should already know something about:
 it's Bayes' theorem.
 
-The formula for this theorem is simple, but I've got an idea of what it actually means just with a particular example.
+A formula for this theorem is simple, but I've got an idea of what it actually means just with a particular example.
 
 Let's say we want to calculate the probability of meeting with a Big Foot in your yard.
 
