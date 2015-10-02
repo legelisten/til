@@ -34,4 +34,4 @@ In the second case, in the universe where there is no BF creature at all, is it 
 
 So event with a power of universe where BF exists, we can't say that seeing his trace make us more confident, that we can meet BF soon.
 
-:sob:
+![](http://i.imgur.com/dvme4X9.png)
