@@ -24,7 +24,7 @@ Let's say we want to calculate the probability of meeting with a Big Foot in you
 
 Features here is _y_ and _z_.
 
-So as you can see here, even if you fond some trace of Big Foot, it does not make the chance to meet him greater!
+So as you can see here, even if you found some trace of Big Foot, it does not make the chance to meet him greater!
 
 The trick is to think about _y_ and _z_ as independent variables, so in this case we should imagine both universes: where we have Big Foot, and where we don't.
 
