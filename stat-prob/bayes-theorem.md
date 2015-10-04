@@ -22,48 +22,11 @@ Let's say we want to calculate the probability of meeting with a Big Foot in you
 | Probability of this event, if there was Big Foot in your yard | _y_ | 70% |
 | Probability of this event, it there is no Big Foot here | _z_ | 30% |
 | Posterior probability |
-| Probability of meeting Big Foot in case you've seen the trace | x*y/(x*y + z(1-x)) | 1.27% |
-
-Calculation Seems Suspect
-=========================
-
-That does not match my intuition: evidence for the bigfoot hypothesis should cause its posterior probability to be greater than its prior probability.  So let us
-
-Carefully Apply Bayes' Rule
-===========================
-
-| Problem Description              |
-|----------------------------------|
-| B = Bigfoot in your yard         |
-| T = Bigfoot-like traces observed |
-| P(B) = 2% = 0.02                 |
-| P(T\|B) = 70% = 0.70             |
-| P(T\|~B) = 30% = 0.3             |
-
-We wish to calculate P(B|T).
-
-Subcalculation
---------------
-
-P(T) = P(T|B)P(B) + P(T|~B)P(~B)
-     = 0.7 * 0.02 + 0.3 * (1-0.02)
-     = 0.308 = 30.8%
-
-Bayes' Rule
------------
-
-P(B|T) = P(T|B) P(B) / P(T)
-       = 0.7 * 0.02 / 0.308
-       = 1/22 = 0.04545454545454545 = 4.55%
-
-*Note that P(B|T) = 4.55% > P(B) = 2%.*
-
-Old Calculation
-===============
+| Probability of meeting Big Foot in case you've seen the trace | x*y/(x*y + z(1-x)) | 4% |
 
 Features here is _y_ and _z_.
 
-So as you can see here, even if you found some trace of Big Foot, it does not make the chance to meet him greater!
+So as you can see here, even if you found some trace of Big Foot, it does not make the chance to meet him too big!
 
 The trick is to think about _y_ and _z_ as independent variables, so in this case we should imagine both universes: where we have Big Foot, and where we don't.
 
