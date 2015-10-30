@@ -1,4 +1,4 @@
-# Does Naive Bayes belive in Big Foot?
+# Does Naive Bayes belive in a Big Foot?
 
 There is a quite interesting, widely-using and powerful theorem in a probability theory, you should already know something about:
 it's [Bayes' theorem](https://en.wikipedia.org/wiki/Bayes%27_theorem). In AI this theorem are used for ["Naive Bayes classifier" algorithm](https://en.wikipedia.org/wiki/Naive_Bayes_classifier).
