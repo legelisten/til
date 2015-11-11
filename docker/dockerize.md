@@ -36,10 +36,12 @@ FROM ubuntu:15.04
 docker build -t legelisten .
 ```
 
-#### 5. Set tag and push
+### 5. Set tag and push
 
 Your tag should be obtained from results of ```docker images``` command. kiote/legelisten - it's repo name ew've created on step 1
 
 ```
+docker login
 docker tag 1aaa18adf220 kiote/legelisten
+docker push kiote/legelisten
 ```
