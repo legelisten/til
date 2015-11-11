@@ -57,3 +57,9 @@ docker images
 docker rmi -f your_image_id_here
 docker pull kiote/legelisten
 ```
+
+### 7. Run image and connect
+
+```
+docker run -i -t legelisten /bin/bash
+```
