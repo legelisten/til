@@ -45,3 +45,15 @@ docker login
 docker tag 1aaa18adf220 kiote/legelisten
 docker push kiote/legelisten
 ```
+
+### 6. Remove local image and pull remote
+
+Just to make sure you're doing good:
+
+```
+# get your local image id
+docker images
+# remove just pushed image
+docker rmi -f your_image_id_here
+docker pull kiote/legelisten
+```
