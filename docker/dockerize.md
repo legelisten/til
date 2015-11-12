@@ -50,5 +50,5 @@ docker rmi $(docker images -q)
 ### 6. Run container in foreground
 
 ```
-docker run -d -P --name legelisten_container legelisten
+docker run -dP --name legelisten_container legelisten
 ```
