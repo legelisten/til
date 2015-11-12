@@ -46,3 +46,9 @@ docker run -it legelisten /bin/bash
 ```
 docker rmi $(docker images -q)
 ```
+
+6. Run container in foreground
+
+```
+docker run --rm -P --name pg_test eg_postgresql
+```
