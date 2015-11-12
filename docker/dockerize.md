@@ -47,7 +47,7 @@ docker run -it legelisten /bin/bash
 docker rmi $(docker images -q)
 ```
 
-6. Run container in foreground
+### 6. Run container in foreground
 
 ```
 docker run --rm -P --name legelisten_container legelisten
