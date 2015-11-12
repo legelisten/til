@@ -58,3 +58,11 @@ docker run -dP --name legelisten_container legelisten
 ```
 docker inspect legelisten_container |grep IPAddress
 ```
+
+### 8. Attach to postgresql
+
+You should determine host (-h) and port (-p) on previous steps.
+
+```
+psql -h 172.17.0.2 -p 32773 -d legelisten -U legelisten --password
+```
