@@ -64,6 +64,8 @@ docker pull kiote/legelisten
 docker run -i -t legelisten /bin/bash
 ```
 
-### 8. Connect Dockerfile on github with docker.hub image:
+### 8. Delete all local images
 
-Read the instruction here http://docs.docker.com/engine/userguide/dockerrepos/ under "Automated Builds" title
+```
+docker rmi $(docker images -q)
+```
