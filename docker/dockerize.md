@@ -52,3 +52,9 @@ docker rmi $(docker images -q)
 ```
 docker run -dP --name legelisten_container legelisten
 ```
+
+### 7. Need to know it's IP-address
+
+```
+docker inspect legelisten_container |grep IPAddress
+```
