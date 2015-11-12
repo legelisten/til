@@ -33,13 +33,13 @@ docker build -t legelisten .
 ```
 
 
-### 7. Run image and connect
+### 4. Run image and connect
 
 ```
 docker run -it legelisten /bin/bash
 ```
 
-### 8. Delete all local images
+### 5. Delete all local images
 
 (if things get really wrong on your side)
 
