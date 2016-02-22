@@ -8,6 +8,10 @@ Add this to .gitconfig:
   publish = "!git push -u origin $(git branch-name)"
   # force-push current branch to staging branch
   staging-push = "!git push origin $(git branch-name):staging --force"
+  
+  # to fix a small typo and force-push it 
+  comeon = "!git add . && git ci --amend && git push --force"
+
   co = checkout
   ci = commit
   st = status
