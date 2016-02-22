@@ -9,7 +9,8 @@ Add this to .gitconfig:
   # force-push current branch to staging branch
   staging-push = "!git push origin $(git branch-name):staging --force"
   
-  # to fix a small typo and force-push it 
+  # to fix a small typo and force-push it
+  # be careful with master branch here ;)
   comeon = "!git add . && git ci --amend && git push --force"
 
   co = checkout
