@@ -9,3 +9,7 @@
 nmap ,n :NERDTreeFind<CR>
 nmap ,m :NERDTreeToggle<CR>
 ```
+
+## Change your key repeating speed
+
+For OS X use [karabiner](https://pqrs.org/osx/karabiner/)
