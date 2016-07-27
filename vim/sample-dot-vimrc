@@ -1,16 +1,25 @@
+set nocompatible              " be iMproved, required
+filetype off                  " required
+
+set pastetoggle=<F2>
+
+set showmode
+
 execute pathogen#infect()
 syntax on
 filetype plugin indent on
 
-autocmd StdinReadPre * let s:std_in=1
-autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
-
-nmap <silent> <c-k> :wincmd k<CR>
+nmap <sIlent> <c-k> :wincmd k<CR>
 nmap <silent> <c-j> :wincmd j<CR>
 nmap <silent> <c-h> :wincmd h<CR>
 nmap <silent> <c-l> :wincmd l<CR>
+
+" NerdTree
 nmap ,n :NERDTreeFind<CR>
 nmap ,m :NERDTreeToggle<CR>
+let NERDTreeIgnore = ['\.pyc$', '__pycache__']
+autocmd StdinReadPre * let s:std_in=1
+autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
 
 set number
 set numberwidth=2
