@@ -8,6 +8,7 @@ Add this to .gitconfig:
   publish = "!git push -u origin $(git branch-name)"
   # force-push current branch to staging branch
   staging-push = "!git push origin $(git branch-name):staging --force"
+  testing-push = "!git push origin $(git branch-name):testing --force"
   
   # to fix a small typo and force-push it
   # be careful with master branch here ;)
