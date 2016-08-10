@@ -18,6 +18,7 @@ nmap <silent> <c-l> :wincmd l<CR>
 nmap ,n :NERDTreeFind<CR>
 nmap ,m :NERDTreeToggle<CR>
 let NERDTreeIgnore = ['\.pyc$', '__pycache__']
+set wildignore+=*/tmp/*,*.so,*.swp,*.zip,*.pyc
 autocmd StdinReadPre * let s:std_in=1
 autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
 
