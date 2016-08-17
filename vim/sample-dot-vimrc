@@ -1,13 +1,31 @@
 set nocompatible              " be iMproved, required
 filetype off                  " required
 
+" set the runtime path to include Vundle and initialize
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+" alternatively, pass a path where Vundle should install plugins
+"call vundle#begin('~/some/path/here')
+
+" let Vundle manage Vundle, required
+Plugin 'VundleVim/Vundle.vim'
+
+Plugin 'scrooloose/nerdtree'
+Plugin 'tpope/vim-surround'
+Plugin 'ctrlpvim/ctrlp.vim'
+Plugin 'elzr/vim-json'
+Plugin 'vim-ruby/vim-ruby'
+Plugin 'tpope/vim-rails'
+
+call vundle#end()            " required
+filetype plugin indent on    " required
+
+set nocompatible              " be iMproved, required
+filetype off                  " required
+
 set pastetoggle=<F2>
 
 set showmode
-
-execute pathogen#infect()
-syntax on
-filetype plugin indent on
 
 nmap <sIlent> <c-k> :wincmd k<CR>
 nmap <silent> <c-j> :wincmd j<CR>
@@ -35,13 +53,14 @@ set textwidth=80  " Make it obvious where 80 characters is
 set colorcolumn=+1
 set nobackup
 set nowritebackup
-set noswapfile    " http://robots.thoughtbot.com/post/18739402579/global-gitignore#comment-458413287
+set noswapfile    "
+" http://robots.thoughtbot.com/post/18739402579/global-gitignore#comment-458413287
 set history=50
 set ruler         " show the cursor position all the time
 set showcmd       " display incomplete commands
 set incsearch     " do incremental searching
 set laststatus=2  " Always display the status line
 set autowrite     " Automatically :write before running commands
-
-
+"
+"
 autocmd BufWritePost *.py call Flake8()
